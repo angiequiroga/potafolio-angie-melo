@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2? family= Heebo:wght@300;400;500;600 & family= Roboto:ital,wght@0,100;0,400;1,500;1,900 & mostrar=cambiar');
+@import url('https://fonts.googleapis.com/css2? family= Heebo:wght@300;400;500;600 & family= Montserrat:ital,wght@0,300;0,400;0,500;0,600; 0,700;1,300;1,400;1,500;1,600;1,700 & display=swap');
+
+.nav-diseño{
+    font-family: 'Anton', sans-serif;
+}
+
+.bg-portafolio{
+    background:#6fdbfc;
+}
+.bg-portafolio ul li a{
+    color:#ffffff(253, 88%, 48%, 0.623);
+}
+
+.bg-portafolio ul li a:hover{
+    color: #8011ca;
+    background:#ffffff;
+    border-radius:7px;
+    border:#ffffff;
+}
+a img{
+    width:50px;
+    height:50px;
+}
+header{
+    background: url(../Img/low-angle-shot-mesmerizing-starry-sky.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+#presentacion{
+    padding-left:210px;
+    padding-bottom:80px;
+    padding-top:130px ;
+    text-align: center;
+    
+}
+#presentacion h1{
+    color: #5b0bc4 ;
+    font-size:120px;
+   
+    font-family: 'Anton', Serif;
+
+}
+#presentacion p{
+    color:#ffffff;
+    font-size:22px;
+    font-family: 'Quicksand', serif;
+}
+.redes img{
+    width: 100px;
+    height: 100px;
+}
+#parte1{
+    background: #6fdbfc;
+
+}
+.fondo{
+    
+    display:flex;
+    margin:#6fdbfc;
+    align-items: center;
+
+    
+}
+#parte1 h2{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Anton', serif;
+    color: #ffffff;
+}
+
+
+.imagen{
+    width: 60%;
+    border: #5b0bc4;
+   
+    
+}
+
+.imagen img{
+    width:45%;
+    height:350px;
+    margin-left:130px ;
+    margin-top:50px ;
+    border-radius: 5px;
+    
+}
+
+
+
+.sobre-mi{
+    width:60%;
+    padding-left:80px ;
+    padding-top: 15px;
+}
+    
+.borde{
+    
+border-right: solid 2px #5b0bc4;
+margin-top: 30px;
+color:#ffffff;
+border-radius: 10px;
+background: #5b0bc4;
+
+
+
+}   
+.borde{
+    border:solid 2px #5b0bc4;
+    padding: 10px;
+    margin-right:10px;
+
+
+}
+.borde h3{
+    text-align: center;
+}
+
+.habilidades{
+     width: 40%;
+     padding-top: 40%;
+     padding-top: 10px;
+    
+
+        
+}
+
+.perfil h2{
+    color:  #5b0bc4;  
+    padding-bottom:25px ;
+    padding-top:50px;
+    font-family: 'Anton', sans-serif;
+
+}
+.perfil p{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif; 
+    
+    
+}
+.perfil b{
+    color: #ffffff;
+    padding-right:5px;
+}
+#parte2{
+    background:#6fdbfc;
+    width:100%;
+    
+}
+#parte2 h2{
+    text-align: center;
+    font-family: 'Anton', serif;
+    color: beige;
+    padding-top:70px;
+    padding-bottom: 70px;
+}
+
+#parte2 h3{
+    font-family:'Anton', sans-serif;
+    color: #ffffff;
+    text-align: center;
+   
+}
+
+.resume{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+.edu{
+    padding: 20px;
+    color: #ffffff; 
+    border-radius: 5px;
+    background: #5b0bc4;
+         
+}
+.ex{
+    padding: 20px;
+    color: #ffffff; 
+    border-radius: 5px;
+    background: #5b0bc4;
+    
+}
+
+
+
+
+#img{
+    background: rgb(88, 15, 184);
+    background-size: cover;
+    
+    
+}
+#img h2{
+    text-align: center;
+    color:  #5b0bc4;
+    padding-top:50px ;
+    
+}
+
+
+
+
+
+footer{
+    background:#000000; 
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom:50px ;
+    text-align: center;
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    #presentacion {
+        padding-left: 21px;
+        
+    }
+    .fondo {
+        display: block; 
+    }
+    .imagen img {
+        width: 100%;
+        margin-left: 80px;
+    }
+    .sobre-mi {
+        width: 100%;
+        padding-left: 10px;  
+    }
+    .resume{
+        display: block;
+    }
+    .edu{
+        margin-bottom: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .ex{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
